@@ -1,5 +1,5 @@
 import csv
-from mes_fonctions import*
+from P5_Python_FSB001.mes_fonctions import*
 tab_etudiant_valide=[]
 tab_etudiant_invalide=[]
 tab_etudiant_note=[]

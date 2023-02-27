@@ -1,4 +1,4 @@
-from mes_fonctions import*
+from P5_Python_FSB001.mes_fonctions import*
 # nombre_etudiant=2
 # booleen = True
 # while True:
