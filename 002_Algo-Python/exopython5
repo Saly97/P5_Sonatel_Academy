@@ -1,0 +1,48 @@
+#matrice=([1,2,3],[4,5,6])
+t=["\033[31m 1 \033[67m \033[32m"]
+# print(t)
+# print(t[0])
+#print(matrice)
+couleur=""
+choix=""
+n=int(input("donner une matrice d'ordre superieur ou egale a 5 : "))
+if n<5:
+    print("la taille doit etre superieur a 5 ")
+matrice=[[" "for i in range(n)]for j in range(n)]
+for i in range(n):
+       for j in range(n) :
+            matrice[i][j]="\033[31m 1"
+
+# for  liste in matrice:
+#     for j in liste:
+#         print(j)
+# print(matrice)
+#
+couleur =""
+choix =""
+#couleur!="rouge"  F
+# or 
+# couleur!="bleu" V
+while(couleur!="rouge" and couleur!="bleu"):
+   couleur=input("donner le couleur de votre choix entre rouge et bleu : ")
+
+while(choix!="haut" and choix!="bas"):
+    choix=input("donner votre choix entre haut et bas ; ")
+    if(couleur== "rouge")and(choix=="haut"):
+        if i>j:
+            # matrice[i][j]==["\033[31m 1 \033[67m \033[32m"]
+            for  liste in matrice:
+                for j in liste:
+                     matrice[i][j]=j
+print(matrice[i][j])
+# print(matrice)
+#             t=["\033[31m 1 \033[67m \033[32m"]
+# print(t)
+# print(t[0 ,1,2])
+    
+        
+            #  matrice==["\033[34m 1 \033[67m \033[34m"]
+        
+  
+             
+                

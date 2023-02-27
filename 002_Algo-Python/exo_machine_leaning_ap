@@ -1,0 +1,13 @@
+classeur={"test":[],"negatif":[]}
+def trier(classeur , nombre):
+    if nombre > 0:
+        
+        classeur["test"].append(nombre)
+    else:
+        classeur["negatif"].append(nombre)
+        
+    return classeur
+    
+print(trier(classeur , 6)  )
+
+
