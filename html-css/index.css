@@ -1,0 +1,36 @@
+.imgcover{background-image : url('index.jpg') ; background-repeat:no-repeat; background-size: 2000px 1000px;}
+.barredetase{
+    background-color: rgb(17, 127, 179) ;
+    padding: 40px;
+    margin-top: 0;
+    height: auto;
+}	
+body{
+    margin: 0%;
+}
+header{
+    color: white;
+    font-size: 30px;
+}
+.ligner ul {
+    list-style-type: none; /*enlever des point du liste*/
+    display: flex; /*aligner en ligne*/
+  
+
+}
+.ligner{
+    justify-content: space-between;/*alignement du contenue espacé entre*/
+    display: flex; /*aligner en ligne*/   
+
+}
+.ligner ul li {
+    margin-left: 25px; /*marge gouche*/ 
+    color: white;
+    font-size: 25px;/*taille des ecrits*/
+
+}
+.ligner ul li a{
+    text-decoration: none; /*enlever des souligne*/
+    color: white;
+
+}
